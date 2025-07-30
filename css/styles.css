@@ -11568,6 +11568,12 @@ html {
   font-size: 1.5rem;
 }
 
+@media screen and (max-width: 720px) {
+  .profile{
+    height: 60vw !important;
+    width: 60vw !important;
+  }
+}
 .profile {
   position: relative;
   height: 30vw;
